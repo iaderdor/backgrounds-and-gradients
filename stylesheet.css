@@ -1,0 +1,105 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+section {
+  height: 682px;
+  background-image: url("https://live.staticflickr.com/4096/4809998210_cf1707c16f_h.jpg");
+  background-size: cover;
+  padding-top: 5%;
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+  max-width: 960px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.2;
+  color: white;
+}
+
+.center-message > *:not(:first-child) {
+  margin-top: 1.5rem;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.subtitle {
+  font-size: 2rem;
+}
+
+.subsubtitle {
+  font-size: 1.8rem;
+}
+
+nav {
+  width: 960px;
+  margin: auto;
+}
+
+nav > ol {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.navigation > li {
+  background-color: #666666;
+  border: 1px solid #474747;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  flex: 1;
+  text-align: center;
+}
+
+/* footer */
+
+a {
+  color: #08c;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.7rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.footer-links > *:not(:first-child) {
+  border-left: 1px solid #dddddd;
+  padding-left: 0.3rem;
+}
+
+.footer-links > *:not(:last-child) {
+  padding-right: 0.3rem;
+}
